@@ -13,6 +13,39 @@
     color: var(--main-color);
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 79px;
+}
+
+nav > img {
+    height: auto;
+    width: auto;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+.navList {
+    list-style-type: none;
+}
+
+.navList > li {
+    display: inline;
+    color: #0065FC;
+    padding-top: 22px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.navList > li:hover{
+    border-top: 2px solid #0065FC;
+}
+
 body {
     display: flex;
     justify-content: center;
