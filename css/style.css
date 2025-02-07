@@ -46,6 +46,50 @@ nav > img {
     border-top: 2px solid #0065FC;
 }
 
+.ensemble-barre-recherche {
+    display: flex;
+    flex-direction: row;
+    height: 49px;
+    width: 377px;
+}
+
+.ensemble-barre-recherche > img {
+    padding: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 15px 0px 0px 15px;
+    background-color: #F2F2F2;
+    border: hidden;
+}
+
+.barre-recherche {
+    display: flex;
+}
+
+.barre-recherche > input {
+    padding: 15px;
+    border: hidden;
+    text-align: center;
+}
+
+.barre-recherche > input::placeholder {
+    font-weight: bold;
+    color: black;
+    font-size: medium;
+}
+
+.barre-recherche > button {
+    background-color: #0065FC;
+    width: 132px;
+    color: white;
+    
+    margin-left: 0;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 0px 15px 15px 0px;
+    border: hidden;
+}
+
 body {
     display: flex;
     justify-content: center;
