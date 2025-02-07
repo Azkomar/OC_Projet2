@@ -24,10 +24,8 @@ nav {
 nav > img {
     height: auto;
     width: auto;
-    padding-top: 30px;
-    padding-right: 50px;
-    padding-bottom: 30px;
-    padding-left: 50px;
+    padding: 30px 50px 30px 0px;
+    
 }
 
 .navList {
@@ -36,7 +34,7 @@ nav > img {
 
 .navList > li {
     display: inline;
-    color: #0065FC;
+    color: black;
     padding-top: 22px;
     margin-left: 50px;
     margin-right: 50px;
@@ -44,6 +42,11 @@ nav > img {
 
 .navList > li:hover{
     border-top: 2px solid #0065FC;
+    color: #0065FC;
+}
+
+.texte-head > h2, .texte-head > p{
+    margin: 5px;
 }
 
 .ensemble-barre-recherche {
@@ -51,6 +54,8 @@ nav > img {
     flex-direction: row;
     height: 49px;
     width: 377px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .ensemble-barre-recherche > img {
@@ -82,12 +87,57 @@ nav > img {
     background-color: #0065FC;
     width: 132px;
     color: white;
-    
     margin-left: 0;
     font-size: medium;
     font-weight: bold;
     border-radius: 0px 15px 15px 0px;
     border: hidden;
+}
+
+.filtres, .filtres-button  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.filtres-button {
+    border-radius: 25px 25px 25px 25px;
+    border: 2px solid #d9d9d9;
+    background-color: white;
+    padding: 4px 19px 4px 19px;
+    height: 50px;
+    margin-left: 15px;
+    margin-right: 10px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.filtres-button:hover {
+    background-color: #DEEBFF;
+}
+
+.filtres-button > img {
+    margin-right: 17px;
+}
+
+.infobar {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+.infobulle {
+    border-radius: 15px;
+    margin-right: 12px;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border: 1px solid #d9d9d9
+}
+
+.head-recherche {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 body {
