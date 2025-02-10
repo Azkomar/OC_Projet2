@@ -13,6 +13,7 @@
     color: var(--main-color);
 }
 
+/****** Barre de navigation ***********/
 nav {
     display: flex;
     flex-direction: row;
@@ -41,8 +42,14 @@ nav > img {
 }
 
 .navList > li:hover{
-    border-top: 2px solid #0065FC;
+    border-top: 3px solid #0065FC;
     color: #0065FC;
+}
+
+/****** Barre de recherche ***********/
+.head-recherche {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .texte-head > h2, .texte-head > p{
@@ -87,13 +94,15 @@ nav > img {
     background-color: #0065FC;
     width: 132px;
     color: white;
+    padding: 15px;
     margin-left: 0;
-    font-size: medium;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 700;
     border-radius: 0px 15px 15px 0px;
     border: hidden;
 }
 
+/****** Filtres ***********/
 .filtres, .filtres-button  {
     display: flex;
     flex-direction: row;
@@ -102,7 +111,7 @@ nav > img {
 
 .filtres-button {
     border-radius: 25px 25px 25px 25px;
-    border: 2px solid #d9d9d9;
+    border: 3px solid #d9d9d9;
     background-color: white;
     padding: 4px 19px 4px 19px;
     height: 50px;
@@ -120,6 +129,7 @@ nav > img {
     margin-right: 17px;
 }
 
+/****** Infobulle ***********/
 .infobar {
     display: flex;
     align-items: center;
@@ -133,11 +143,6 @@ nav > img {
     height: 24px;
     background-color: white;
     border: 1px solid #d9d9d9
-}
-
-.head-recherche {
-    margin-top: 15px;
-    margin-bottom: 15px;
 }
 
 body {
