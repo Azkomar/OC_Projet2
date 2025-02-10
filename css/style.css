@@ -65,12 +65,13 @@ nav > img {
     margin-bottom: 30px;
 }
 
-.ensemble-barre-recherche > img {
+.ensemble-barre-recherche > i {
     padding: 15px;
     padding-right: 20px;
     padding-left: 20px;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
+    color: black;
     border: hidden;
 }
 
@@ -125,8 +126,9 @@ nav > img {
     background-color: #DEEBFF;
 }
 
-.filtres-button > img {
-    margin-right: 17px;
+.filtres-button > i {
+    margin-right: 13px;
+
 }
 
 /****** Infobulle ***********/
