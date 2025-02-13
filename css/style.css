@@ -150,6 +150,7 @@ nav > img {
 body {
     display: flex;
     justify-content: center;
+    margin-bottom: 0;
 }
 
 .main-container {
@@ -297,9 +298,10 @@ a {
 .activites-cards {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
     margin-top: 30px;
+    gap: 30px;
 }
 
 .activites-cards a {
@@ -326,8 +328,31 @@ a {
     object-fit: cover;
 }
 
+/****** Footer ***********/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    padding: 20px 20px 0px 20px;
+    width: 100%;
+    gap: 15px;
+}
 
+footer ul {
+    width: 33%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
+footer li {
+    padding-bottom: 20px;
+}
+
+footer h3 {
+    margin: 0;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
