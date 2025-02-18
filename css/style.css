@@ -101,7 +101,7 @@ nav > img {
 }
 
 /****** Filtres ***********/
-.filtres, .filtres-button  {
+.filtres  {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -109,6 +109,7 @@ nav > img {
 }
 
 .filtres-button {
+    display: inline;
     border-radius: 25px 25px 25px 25px;
     border: 3px solid #d9d9d9;
     background-color: white;
@@ -426,6 +427,10 @@ footer h3 {
         color: #0065FC;
     }
 
+    .ensemble-barre-recherche {
+        justify-content: center;
+    }
+
     .head-recherche {
         display: flex;
         flex-direction: column;
@@ -465,7 +470,6 @@ footer h3 {
         font-size: 14px;
         margin: 0;
         text-align: center;
-        overflow: hidden;
     }
     .filtres-button > i {
         margin-right: 5%;
