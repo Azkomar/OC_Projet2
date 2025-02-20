@@ -181,8 +181,6 @@ a {
 
 .card-title {
     font-size: 16px;
-    overflow: hidden;
-    white-space: nowrap;
 }
 
 .euro {
@@ -224,6 +222,23 @@ a {
     gap: 30px;
 }
 
+.hebergements-cards .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 94px;
+}
+
+.hebergements-cards .card-title {
+    margin-bottom: auto;
+}
+
+.hebergements-cards .card-subtitle {
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-size: 15px;
+}
+
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
@@ -234,11 +249,10 @@ a {
     width: 29%;
 }
 
-.hebergements-cards .card-txt, .card-rating {
-    padding-left: 15px;
-    padding-right: 15px;
+.hebergements-cards .card-content {
+    padding-left: 10px;
+    padding-right: 10px;
     margin-bottom: 5px;
-
 }
 
 .hebergements-cards img {
