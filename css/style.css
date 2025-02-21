@@ -205,11 +205,11 @@ a {
 }
 
 /****** Hebergements ***********/
-.hebergements {
+#hebergements {
     width: 66%;
 }
 
-.hebergements .plus {
+#hebergements .plus {
     margin-top: 30px;
     margin-bottom: 0;
 }
@@ -307,7 +307,7 @@ a {
 }
 
 /****** Activités ***********/
-.activites {
+#activites {
     padding: 30px;
 }
 
@@ -376,7 +376,7 @@ footer h3 {
         flex-direction: column;
     }
 
-    .hebergements {
+    #hebergements {
         width: 100%;
     }
 
@@ -497,7 +497,7 @@ footer h3 {
         border-radius: 0px;
     }
 
-    .hebergements-and-populaires .hebergements {
+    .hebergements-and-populaires #hebergements {
         background-color: white;
     }
 
